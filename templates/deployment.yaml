@@ -19,3 +19,4 @@ spec:
           command: ["npm", "start"]
           ports:
             - containerPort: {{ .Values.service.targetPort }}
+          workingDir: /app
